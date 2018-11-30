@@ -1,0 +1,6 @@
+applications:
+- name: insurance-transformer-service
+  path: target\infosys_edi_transformer-0.0.1-SNAPSHOT.jar
+  env:
+   SPRING_PROFILES_ACTIVE: default  routes:
+   - route: insurance-transformer-service.cfapps.io

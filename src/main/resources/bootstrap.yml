@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: EDITransformer, s3config
+  cloud:
+    config:
+      uri:
+      - http://ec2-54-221-34-7.compute-1.amazonaws.com:8888
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh

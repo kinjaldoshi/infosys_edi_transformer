@@ -13,6 +13,6 @@ import com.stg.insurance.data.beans.genericmodel.Document;
  */
 public interface TemplateCustomisationServices {
 
-	String enrichBulkObject(String template, String fileName, Document bulkObject) throws IOException;
+	byte[] enrichBulkObject(String template, String fileName, Document bulkObject) throws IOException;
 
 }

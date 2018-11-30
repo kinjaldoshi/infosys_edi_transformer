@@ -10,6 +10,15 @@ public class InsuranceTemplate {
 	private List<Category> categories;
 	private String templateName;
 	private String templateTimestamp;
+	private String description;
+
+	public String getDescription() {
+		return description;
+	}
+
+	public void setDescription(String description) {
+		this.description = description;
+	}
 
 	public List<Category> getCategories() {
 		return categories;
